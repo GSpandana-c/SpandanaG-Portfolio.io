@@ -1,0 +1,103 @@
+<section id="home" class="hero section" role="banner">
+  <div class="hero-content">
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Spandana G</h1>
+      <p class="text-lg md:text-2xl mb-6">Senior Software Engineer | Java | Spring Boot | React | AWS | DevOps</p>
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition inline-block" aria-label="Contact me">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section bg-gray-50" aria-labelledby="about-heading">
+  <h2 id="about-heading" class="text-4xl font-bold mb-8 text-center">About Me</h2>
+  <div class="card max-w-4xl mx-auto">
+    <p class="text-lg">Senior Software Engineer with 7+ years of experience building scalable, cloud-native enterprise applications using Java, Spring Boot, and React.js. Skilled in microservices, secure RESTful APIs, AWS (EKS, Lambda, SNS/SQS), Kafka, Docker, Kubernetes, and CI/CD pipelines. Strong advocate for clean code, system resilience, and user-centric software delivery.</p>
+  </div>
+</section>
+
+<section id="skills" class="section" aria-labelledby="skills-heading">
+  <h2 id="skills-heading" class="text-4xl font-bold mb-8 text-center">Skills</h2>
+  <div class="skill-grid max-w-5xl mx-auto">
+    <div class="skill-card">Java (8/11/17)</div>
+    <div class="skill-card">Spring Boot</div>
+    <div class="skill-card">React.js</div>
+    <div class="skill-card">TypeScript</div>
+    <div class="skill-card">AWS (EKS, Lambda, SQS)</div>
+    <div class="skill-card">Kafka</div>
+    <div class="skill-card">Docker</div>
+    <div class="skill-card">Kubernetes</div>
+    <div class="skill-card">PostgreSQL</div>
+    <div class="skill-card">MongoDB</div>
+    <div class="skill-card">CI/CD (Jenkins, GitHub Actions)</div>
+    <div class="skill-card">TDD (JUnit, Mockito)</div>
+    <div class="skill-card">OAuth 2.0</div>
+    <div class="skill-card">CloudWatch & X-Ray</div>
+    <div class="skill-card">Agile / Scrum</div>
+  </div>
+</section>
+
+<section id="experience" class="section bg-gray-50" aria-labelledby="experience-heading">
+  <h2 id="experience-heading" class="text-4xl font-bold mb-8 text-center">Professional Experience</h2>
+  <div class="max-w-4xl mx-auto">
+
+    <div class="card">
+      <h3 class="text-2xl font-semibold">Senior Software Engineer – The Home Depot</h3>
+      <p class="text-gray-600">Mar 2024 – Present | Atlanta, GA</p>
+      <ul class="list-disc ml-6 mt-2 text-base">
+        <li>Modernized enterprise applications using Java 17, Spring Boot 3.x, React.js v18, AWS EKS, and Docker.</li>
+        <li>Designed microservices, REST APIs, and asynchronous fraud detection logic using SNS/SQS.</li>
+        <li>Built CI/CD pipelines using Jenkins, GitHub Actions and monitored health via CloudWatch and X-Ray.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="text-2xl font-semibold">Software Engineer – Barclays</h3>
+      <p class="text-gray-600">Jan 2022 – Feb 2024 | Whippany, NJ</p>
+      <ul class="list-disc ml-6 mt-2 text-base">
+        <li>Led backend and frontend development of real-time fraud detection using Spring Boot, Kafka, React.js.</li>
+        <li>Deployed to AWS EKS and integrated ELK Stack for observability.</li>
+        <li>Implemented JWT/OAuth 2.0 security and optimized queries using Redis & PostgreSQL.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="text-2xl font-semibold">Software Developer – Luma Health</h3>
+      <p class="text-gray-600">Oct 2019 – Dec 2021 | San Francisco, CA</p>
+      <ul class="list-disc ml-6 mt-2 text-base">
+        <li>Developed HIPAA-compliant microservices for appointment scheduling and messaging on AWS.</li>
+        <li>Worked on backend (Spring Boot) and frontend (React.js), integrated with S3, Lambda, RDS, IAM.</li>
+        <li>Built automated Spring Batch jobs and cloud monitoring via CloudWatch.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3 class="text-2xl font-semibold">Software Developer – Lister Technologies</h3>
+      <p class="text-gray-600">Jan 2018 – Sep 2019 | Chennai, India</p>
+      <ul class="list-disc ml-6 mt-2 text-base">
+        <li>Developed REST APIs using Spring Framework for business process automation.</li>
+        <li>Worked with SQL Server, JSP, AJAX, and optimized backend queries for faster performance.</li>
+        <li>Contributed to system integration and responsive frontend development using JavaScript/HTML.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="certifications" class="section" aria-labelledby="certifications-heading">
+  <h2 id="certifications-heading" class="text-4xl font-bold mb-8 text-center">Certifications</h2>
+  <div class="card max-w-4xl mx-auto">
+    <ul class="list-disc ml-6 text-lg">
+      <li>Certified Scrum Master (CSM) – Scrum Alliance</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="section bg-gray-100" aria-labelledby="contact-heading">
+  <h2 id="contact-heading" class="text-4xl font-bold mb-8 text-center">Contact</h2>
+  <div class="card max-w-4xl mx-auto">
+    <p class="mb-2">Email: <a href="mailto:gspandana.career@gmail.com" class="contact-link">gspandana.career@gmail.com</a></p>
+    <p class="mb-2">Phone: <a href="tel:+13146498472" class="contact-link">+1 (314) 649-8472</a></p>
+    <p class="mb-2">LinkedIn: <a href="#" target="_blank" class="contact-link">[Your LinkedIn URL]</a></p>
+    <p>GitHub: <a href="#" target="_blank" class="contact-link">[Your GitHub URL]</a></p>
+  </div>
+</section>
