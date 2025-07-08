@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Spandana G – Senior Software Engineer"/>
+  <meta name="keywords" content="Java, Spring Boot, React.js, AWS, Microservices, CI/CD"/>
+  <title>Spandana G – Portfolio</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #f9fafb; color: #1f2937; }
+    .navbar a:hover { background: #2563eb; border-radius: .5rem; }
+    .skill-card:hover { transform: scale(1.05); background: #dbeafe; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar fixed top-0 w-full bg-gray-900 text-white py-4 z-50">
+    <div class="container mx-auto flex justify-center space-x-6">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-800 to-blue-500">
+    <div class="text-center px-6">
+      <h1 class="text-5xl font-bold text-white mb-4">Spandana G</h1>
+      <p class="text-xl text-white mb-6">Senior Software Engineer | Java & Spring Boot | React | AWS</p>
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-100">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 bg-gray-50">
+    <div class="container mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        Senior Software Engineer with 7+ years of experience in building scalable, cloud-native enterprise applications using Java, Spring Boot, and React.js. I specialize in designing microservices architectures, secure REST APIs, and real-time systems across retail, healthcare, and finance. Expert in AWS (EKS, Lambda, SNS/SQS), Docker, Kubernetes, Kafka, TDD, and CI/CD with Jenkins and GitHub Actions.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-20">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">Java 8/11/17</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">Spring Boot</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">React.js, TypeScript</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">AWS (EKS, Lambda, SNS/SQS)</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">Docker & Kubernetes</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">Apache Kafka & Pub/Sub</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">CI/CD – Jenkins, GitHub Actions</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">TDD – JUnit, Mockito</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">PostgreSQL, MongoDB</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">REST APIs & Spring Security</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">OAuth 2.0 & JWT</div>
+        <div class="skill-card bg-gray-100 p-4 rounded text-center">Agile / Scrum</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="py-20 bg-gray-50">
+    <div class="container mx-auto max-w-4xl space-y-8">
+      <h2 class="text-3xl font-bold text-center mb-6">Professional Experience</h2>
+
+      <!-- Home Depot -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold">Sr. Software Engineer – The Home Depot</h3>
+        <p class="text-gray-600">Mar 2024 – Present | Atlanta, GA</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Led modernization of enterprise apps to microservices using Java 17, Spring Boot 3.x, Docker & AWS EKS.</li>
+          <li>Built React.js v18 UIs with TypeScript, Redux Toolkit, Context API, Hooks & lazy loading.</li>
+          <li>Designed fraud detection logic; integrated SNS/SQS for async processing.</li>
+          <li>Automated CI/CD with Jenkins, GitHub Actions; monitored via CloudWatch and X‑Ray.</li>
+        </ul>
+      </div>
+
+      <!-- Barclays -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold">Software Engineer – Barclays</h3>
+        <p class="text-gray-600">Jan 2022 – Feb 2024 | Whippany, NJ</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Built real-time fraud platform using Spring Boot, Kafka, Redis, WebSockets & React.js.</li>
+          <li>Secured APIs with OAuth 2.0, JWT & Spring Security; managed PostgreSQL data.</li>
+          <li>Deployed microservices on AWS EKS; enhanced CI/CD pipelines with Jenkins.</li>
+        </ul>
+      </div>
+
+      <!-- Luma Health -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold">Software Developer – Luma Health</h3>
+        <p class="text-gray-600">Oct 2019 – Dec 2021 | San Francisco, CA</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Developed HIPAA-compliant Spring Boot microservices for appointment booking and messaging.</li>
+          <li>Used AWS EC2, RDS, S3, Lambda & CloudWatch; built Spring Batch reminder jobs.</li>
+          <li>Integrated React.js front-end with secure backend APIs.</li>
+        </ul>
+      </div>
+
+      <!-- Lister Technologies -->
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="text-2xl font-semibold">Software Developer – Lister Technologies</h3>
+        <p class="text-gray-600">Jan 2018 – Sep 2019 | Chennai, India</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Created REST APIs using Java & Spring; optimized SQL Server queries for business apps.</li>
+          <li>Built dynamic web pages with JSP, AJAX & JavaScript.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="py-20">
+    <div class="container mx-auto max-w-2xl bg-white p-6 rounded shadow">
+      <h2 class="text-3xl font-bold text-center mb-4">Certifications</h2>
+      <ul class="list-disc ml-6 text-lg">
+        <li>Certified Scrum Master (CSM) – Scrum Alliance</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="container mx-auto max-w-2xl bg-white p-6 rounded shadow text-center text-lg space-y-2">
+      <h2 class="text-3xl font-bold mb-4">Contact</h2>
+      <p>Email: <a href="mailto:gspandana.career@gmail.com" class="text-blue-600 hover:underline">gspandana.career@gmail.com</a></p>
+      <p>Phone: <a href="tel:+13146498472" class="text-blue-600 hover:underline">+1 (314) 649-8472</a></p>
+      <p>LinkedIn: <a href="#" class="text-blue-600 hover:underline" target="_blank">LinkedIn Portfolio</a></p>
+      <p>GitHub: <a href="#" class="text-blue-600 hover:underline" target="_blank">GitHub Profile</a></p>
+    </div>
+  </section>
+
+  <!-- Smooth scroll -->
+  <script>
+    document.querySelectorAll('nav a').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>
